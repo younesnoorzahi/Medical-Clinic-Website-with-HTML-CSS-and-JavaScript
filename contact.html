@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HealthCare Clinic</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span>Health</span>Care</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help. Reach out to us with any questions or to schedule an appointment.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>Main: (555) 123-4567</p>
+                            <p>Emergency: (555) 987-6543</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@healthcareclinic.com</p>
+                            <p>appointments@healthcareclinic.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>123 Medical Center Drive</p>
+                            <p>Healthville, HV 12345</p>
+                            <p><a href="#" class="directions-link">Get Directions <i class="fas fa-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Hours of Operation</h3>
+                            <div class="hours-grid">
+                                <div class="hours-day">Monday - Friday:</div>
+                                <div class="hours-time">8:00 AM - 8:00 PM</div>
+                                <div class="hours-day">Saturday:</div>
+                                <div class="hours-time">9:00 AM - 5:00 PM</div>
+                                <div class="hours-day">Sunday:</div>
+                                <div class="hours-time">9:00 AM - 3:00 PM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="form-card">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Please provide details about your inquiry" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us</h2>
+                <p>We're conveniently located in the heart of Healthville, with easy access to public transportation and ample parking.</p>
+            </div>
+            <div class="map-container">
+                <!-- This would be replaced with an actual map -->
+                <div class="map-placeholder">
+                    <p>Interactive Map Would Be Displayed Here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our services and policies.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How do I schedule an appointment?</h3>
+                    <p>You can schedule an appointment by calling our office, using our online booking system, or sending us a message through the contact form on this page.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What insurance plans do you accept?</h3>
+                    <p>We accept most major insurance plans. Please contact our office to verify that we accept your specific insurance plan.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I bring to my first appointment?</h3>
+                    <p>Please bring your insurance card, photo ID, list of current medications, and any relevant medical records or test results.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer telehealth services?</h3>
+                    <p>Yes, we offer telehealth appointments for certain types of visits. Please call our office to determine if your concern is appropriate for a telehealth visit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Schedule Your Visit?</h2>
+            <p>Our team is ready to provide you with the care you deserve. Book your appointment today.</p>
+            <a href="#" class="btn btn-light">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>HealthCare Clinic</h3>
+                    <p>Providing compassionate, high-quality healthcare services for you and your family since 2005.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Patient Portal</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">Primary Care</a></li>
+                        <li><a href="#">Pediatrics</a></li>
+                        <li><a href="#">Women's Health</a></li>
+                        <li><a href="#">Cardiology</a></li>
+                        <li><a href="#">Laboratory Services</a></li>
+                        <li><a href="#">Physical Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Medical Center Drive<br>Healthville, HV 12345</li>
+                        <li><i class="fas fa-phone-alt"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@healthcareclinic.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 8:00 PM<br>Sat-Sun: 9:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> HealthCare Medical Clinic. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
